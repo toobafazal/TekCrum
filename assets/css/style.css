@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+    transition: all .2s linear;
+   font-size: 62.5%;
+}
+body{
+    background-color: rgb(253, 250, 250);
+    overflow-x : hidden;
+}
+#topbar{
+    background-color: #0063b0;
+    color: #fff;
+}
+#topbar a,span{
+    padding-left: 10px;
+    color: #fff;
+
+}
+#topbar i{
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+
+}
+.logo{
+    width: 8vw;
+    height: 7vh;
+    margin-left: 70px;
+    border-radius: 200px ;
+}
+
+.text-centers{
+    margin: 0px 0 40px 0 !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: #0063b0  !important;
+    box-shadow: 5px 5px 5px 5px rgb(177, 173, 173);
+    height: 13vh !important;
+}
+.mynav{
+    background-color:  #fff;
+    box-shadow: rgba(109, 108, 108, 0.45) 0px 25px 20px -20px;
+     width: 100%;
+    
+}
+.mynav ul li a{
+    color: #111 !important;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px !important;
+
+}
+.mynava{
+
+    color: #111 !important;
+    font-weight: 400;
+    font-size: 16px;
+}
+button{
+    color: #fff !important;
+    font-weight: 300;
+    font-size: 16px !important;
+    padding: 15px !important;
+    margin-left: 80px;
+    margin-top: 2px;
+    background-color: #0063b0 !important;
+
+}
+button:hover{
+    transform: scale(0.95);
+}
+.mynav ul li a:hover{
+    background-color: #0063b0 ;
+    color: #fff !important;
+    border-radius: 15px 15px 0 0;
+
+}
+#hero{
+    background-image: url(../images/hero\ bg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: fixed;
+    height: 80vh;
+}
+#hero img{
+    width: 100%;
+    height: 100%;
+}
+#hero h1{
+    color: #0063b0;
+}
+#hero h2{
+    color: #444444;
+}
+
+ #about h2{
+    padding:15px 5px 5px 50px;
+    font-size: 30px;
+}
+.main{
+    margin-top: 50px;
+    height: 200px;
+    width: 100% !important;
+    background-repeat: no-repeat;
+}
+
+
+#about a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#about p{
+    color: rgb(122, 128, 125);
+    font-size: 1.5rem;
+}
+#about .about-text{
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+text-align: justify;
+margin-right: 50px;
+margin-top: 50px;
+margin-left: 50px;
+
+}
+#about .para{
+    background-color: rgb(240, 230, 230);
+
+}
+#about img{
+    width: 100% !important;
+    height: 300px !important;
+    margin-left:70px !important;
+}
+#about button{
+    margin-top: 30px;
+}
+#values .myp{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 50px;
+}
+#values h1{
+    color: #0a3175;
+    text-align: center;
+    font-weight: bold;
+}
+#values .mycard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+    
+}
+#values .mycard img{
+    width: 70% !important;
+    height: 40% !important;
+}
+#values .card img:hover{
+    transform: scale(0.85);
+}
+#values .card{
+    margin-left: 50px !important;
+    border: 3px ridge blue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#values h3{
+    color: #0a3175;
+}
+#values .card p{
+color: #888383 !important;
+text-align: justify;
+}
+.mycard-service {
+    border: 2px solid rgb(218, 211, 211);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 20%;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.col-md-4{
+    display: flex;
+    flex-direction: row;
+}
+#values{
+    margin-bottom: 50px;
+}
+.mycard-service p small{
+    color: black !important;
+}
+.fa-smile-o{
+    color: #0a3175;
+    font-size: 6rem;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.fa-newspaper-o{
+    margin-right: 20px;
+    color: #f5882f;
+    font-size: 6rem;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.fa-headphones{
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #66bb17;
+    font-size: 6rem;
+    margin-left: 20px;
+
+}
+.fa-users{
+    margin-top: 10px; 
+    margin-right: 20px;
+    color: #c73d72;
+    font-size: 6rem;
+    margin-left: 20px;
+
+}
+.card-title{
+    color: blue;
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.myimg-mob{
+height: 10vh;
+width: 10vw;
+}
+@media  only screen and(min-device-width:768px) 
+and(min-device-width:768px)
+and(max-device-width:1024px)
+and(orientation:portrait)
+and(-webkit-min-device-pixel-ratio:1)
+{
+.mycard-service{
+    width: 50%;
+}
+
+}
+@media only screen and (max-width:768px){
+    html{
+        overflow-x:hidden;
+    }
+    #about .about-text{
+        display: inline;
+    }
+    #values .mycard{
+        display: inline;
+    }
+    #values .card{
+        margin-top: 20px !important;
+    }
+    .mycard-service{
+        width: 80%;
+        margin-bottom: 10px;
+
+    }
+    .col-md-4{
+        display: flex !important;
+    }
+    
+}
